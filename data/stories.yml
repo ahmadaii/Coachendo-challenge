@@ -1,0 +1,65 @@
+version: "3.1"
+
+stories:
+
+- story: BOT KNOWS GENERAL
+  steps:
+  - intent: GREET
+  - action: utter_GREET
+  - intent: HI_QUESTION_YES
+  - action: utter_HI_QUESTION_YES
+  - action: utter_THOUGHTS
+  - intent: GENERAL
+  - action: utter_GENERAL
+  
+
+- story: BOT NOT KNOWS GENERAL
+  steps:
+  - intent: GREET
+  - action: utter_GREET
+  - intent: HI_QUESTION_NO
+  - action: utter_HI_QUESTION_NO
+  - action: utter_THOUGHTS
+  - intent: GENERAL
+  - action: utter_GENERAL
+
+- story: BOT KNOWS RECOGNISED
+  steps:
+  - intent: GREET
+  - action: utter_GREET
+  - intent: HI_QUESTION_YES
+  - action: utter_HI_QUESTION_YES
+  - action: utter_THOUGHTS
+  - intent: RECOGNISED
+  - action: utter_RECOGNISED
+
+- story: BOT NOT KNOWS RECOGNISED
+  steps:
+  - intent: GREET
+  - action: utter_GREET
+  - intent: HI_QUESTION_NO
+  - action: utter_HI_QUESTION_NO
+  - action: utter_THOUGHTS
+  - intent: RECOGNISED
+  - action: utter_RECOGNISED
+
+- story: BOT KNOWS LEARN
+  steps:
+  - intent: GREET
+  - action: utter_GREET
+  - intent: HI_QUESTION_YES
+  - action: utter_HI_QUESTION_YES
+  - action: utter_THOUGHTS
+  - intent: LEARN
+  - action: utter_LEARN
+
+- story: BOT NOT KNOWS LEARN
+  steps:
+  - intent: GREET
+  - action: utter_GREET
+  - intent: HI_QUESTION_NO
+  - action: utter_HI_QUESTION_NO
+  - action: utter_THOUGHTS
+  - intent: LEARN
+  - action: utter_LEARN
+

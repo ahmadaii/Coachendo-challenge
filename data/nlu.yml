@@ -1,0 +1,76 @@
+version: "3.1"
+
+nlu:
+
+- intent: HI_QUESTION_YES
+  examples: |
+    - yes
+    - yeah 
+    - Yes, Of course, I've hear about it, I've read, I made some research
+    - yup
+
+- intent: HI_QUESTION_NO
+  examples: |
+    - no
+    - i have not
+    - nah
+    - not at all
+    - No, Never, I've heard about it, First time I heard, Not sure
+
+- intent: RECOGNISED    
+  examples: |
+    - I recognised myself in those situations, That happened to me before, One time I had this feeling
+    - I recognised myself in those situations
+    - I already have experienced these situations
+    - I remember this happend to me before
+    - That happened to me before
+    - One time I had this feeling
+    - That happened to me before, One time I had this feeling
+    - I recognised myself in those situations, One time I had this feeling
+
+    
+- intent: LEARN    
+  examples: |
+    - I did not know that…, I've learned a lot, This information is new for me
+    - I would like to learn more about this
+    - The provided information is new for me and I would like to know more
+    - Please tell me more about it
+    - I want to learn about it
+    - please tell me more about this 
+
+- intent: GENERAL    
+  examples: |
+    - not interested
+    - will do it later
+    - will tell you if needed
+
+- intent: GREET
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: GOODBYE
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+
